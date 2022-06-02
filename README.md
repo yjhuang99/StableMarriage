@@ -2,6 +2,8 @@
 
 The original StableMarriage class with Deferred Acceptance Algorithm, Random Path to Stability, and Stability Checking is contributed by amanlai (2021). I build the functions of simple permutation method, random serial dictatorship and modified top trading cycle within this class. I also added all the evaluation files of computational efficiency (in each python file with their name indicating the model) and social welfare analysis (welfare.py).
 
+Here is a description of the Stable Marriage Problem by amanlai (2021):
+
 Suppose there were boys and girls in a room and they wanted to dance with each other. Each boy has a list of girls that he wants to dance with and each girl has a list of boys that she wants to dance with. Is there a way to match them in such a way that no boy-girl pair who are not dance partners would want to become dance partners instead of their current arrangements? This was answered in the affirmative by Gale and Shapley in the seminal 1962 paper: *College Admissions and the Stability of Marriage.*
 
 Gale and Shapley proved that if preferences are strict and no one has a person of the same sex on their preference list, then there exists a matching such that no boy-girl pair would ever want to break off from their respective matched dance partners in favor of each other. They proved this statement constructively using an algorithm later known as the Gale-Shapley algorithm.
@@ -44,3 +46,5 @@ Gale-Shapley algorithm implies a centralized authority who can match men and wom
 **Question:** Can a group of men and women reach a stable outcome if they match up in a decentralized way? In other words, if men and women date each other, break up, date another, break up, etc. out on their own, can they reach a stable matching eventually?
 
 Roth and van de Vate (1990) answered this question in the affirmative. They proved that starting from any unstable matching, there exists a path to *a* stable matching. This result suggests that stable matchings are a natural converging point for two-sided matching problems. Note that we are not sure which stable matching will be reached in this decentralized setting, whereas in the Gale-Shapley algorithm, we are very certain which stable matching will be reached.
+
+References: https://github.com/amanlai/StableMarriage

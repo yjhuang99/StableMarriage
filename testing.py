@@ -49,8 +49,8 @@ galprefers = {
 
 
 model = MarriageModel(guyprefers, galprefers)
-print(model.random_path_to_stability(print_rounds = True))
-print(model.Deferred_Acceptance(print_rounds = True))
+print(model.random_path_to_stability())
+print(model.Deferred_Acceptance())
 print(model.enumeration_stability())
 print(model.random_sd())
 print(model.random_ttc())

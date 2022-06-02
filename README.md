@@ -1,5 +1,7 @@
 # StableMarriage
 
+The original StableMarriage class with Deferred Acceptance Algorithm, Random Path to Stability, and Stability Checking is contributed by amanlai (2021). I build the functions of simple permutation method, random serial dictatorship and modified top trading cycle within this class. I also added all the evaluation files of computational efficiency (in each python file with their name indicating the model) and social welfare analysis (welfare.py).
+
 Suppose there were boys and girls in a room and they wanted to dance with each other. Each boy has a list of girls that he wants to dance with and each girl has a list of boys that she wants to dance with. Is there a way to match them in such a way that no boy-girl pair who are not dance partners would want to become dance partners instead of their current arrangements? This was answered in the affirmative by Gale and Shapley in the seminal 1962 paper: *College Admissions and the Stability of Marriage.*
 
 Gale and Shapley proved that if preferences are strict and no one has a person of the same sex on their preference list, then there exists a matching such that no boy-girl pair would ever want to break off from their respective matched dance partners in favor of each other. They proved this statement constructively using an algorithm later known as the Gale-Shapley algorithm.
